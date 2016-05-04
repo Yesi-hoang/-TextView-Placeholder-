@@ -1,25 +1,109 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rainbow" translatesAutoresizingMaskIntoConstraints="NO" id="MiI-CS-D0O">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="2dB-US-PtC">
+                                <rect key="frame" x="63" y="24" width="250" height="620"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="猥琐法：                                                     把UITextView的text当placeholder使用。但是当文字和placeholder一致时失效。" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hQd-HI-Z9Z" userLabel="Text View1" customClass="ObsceneTextView">
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="100"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="cWg-tU-llt"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="T8O-1I-jjF" userLabel="Text View2" customClass="DrawTextView">
+                                        <rect key="frame" x="0.0" y="130" width="250" height="100"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="FLy-Sd-22o"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PEb-fo-FgT" userLabel="Text View3" customClass="XMGPlaceholderTextView">
+                                        <rect key="frame" x="0.0" y="260" width="250" height="100"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8mc-w5-gkC" userLabel="Text View4">
+                                        <rect key="frame" x="0.0" y="390" width="250" height="100"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="DTd-FX-5Fh"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jvP-5C-NR2" userLabel="Text View5" customClass="RPFloatingPlaceholderTextView">
+                                        <rect key="frame" x="0.0" y="520" width="250" height="100"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="JzG-Pc-3zG"/>
+                                    <constraint firstItem="T8O-1I-jjF" firstAttribute="top" secondItem="hQd-HI-Z9Z" secondAttribute="bottom" constant="30" id="XtM-aW-fd9"/>
+                                    <constraint firstItem="PEb-fo-FgT" firstAttribute="centerY" secondItem="2dB-US-PtC" secondAttribute="centerY" id="bPa-DW-yny"/>
+                                    <constraint firstAttribute="height" constant="620" id="bza-me-yBe"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MiI-CS-D0O" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="9Zv-Af-44N"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="MiI-CS-D0O" secondAttribute="bottom" id="I0y-vL-Whj"/>
+                            <constraint firstItem="2dB-US-PtC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Op8-mD-yye"/>
+                            <constraint firstAttribute="trailing" secondItem="MiI-CS-D0O" secondAttribute="trailing" id="QBO-XN-GGH"/>
+                            <constraint firstAttribute="bottom" secondItem="MiI-CS-D0O" secondAttribute="bottom" id="QGw-p7-zpf"/>
+                            <constraint firstItem="MiI-CS-D0O" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="RNF-2v-Z1H"/>
+                            <constraint firstItem="MiI-CS-D0O" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hwH-oh-HwV"/>
+                            <constraint firstItem="2dB-US-PtC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wi6-fw-njn"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="9Zv-Af-44N"/>
+                                <exclude reference="I0y-vL-Whj"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="textView1" destination="hQd-HI-Z9Z" id="xSy-GB-Fkn"/>
+                        <outlet property="textView2" destination="T8O-1I-jjF" id="KHz-EP-aZG"/>
+                        <outlet property="textView3" destination="PEb-fo-FgT" id="MSN-h0-gpv"/>
+                        <outlet property="textView4" destination="8mc-w5-gkC" id="yqD-s5-77h"/>
+                        <outlet property="textView5" destination="jvP-5C-NR2" id="AJf-3q-eSo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="138.5" y="337.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="rainbow" width="375" height="667"/>
+    </resources>
 </document>

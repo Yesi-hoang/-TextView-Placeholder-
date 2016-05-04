@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4214E381CD9EA3A0069D292 /* UIView+DX.m in Sources */ = {isa = PBXBuildFile; fileRef = D4214E351CD9EA3A0069D292 /* UIView+DX.m */; };
+		D4214E391CD9EA3A0069D292 /* XMGPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4214E371CD9EA3A0069D292 /* XMGPlaceholderTextView.m */; };
+		D4214E3C1CD9EFFC0069D292 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = D4214E3B1CD9EFFC0069D292 /* UITextView+Placeholder.m */; };
+		D4214E431CD9F6B40069D292 /* RPFloatingPlaceholderTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D4214E401CD9F6B40069D292 /* RPFloatingPlaceholderTextField.m */; };
+		D4214E441CD9F6B40069D292 /* RPFloatingPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4214E421CD9F6B40069D292 /* RPFloatingPlaceholderTextView.m */; };
 		D4D87B0E1CD88D2C00875F66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D87B0D1CD88D2C00875F66 /* main.m */; };
 		D4D87B111CD88D2C00875F66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D87B101CD88D2C00875F66 /* AppDelegate.m */; };
 		D4D87B141CD88D2C00875F66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D87B131CD88D2C00875F66 /* ViewController.m */; };
@@ -15,6 +20,8 @@
 		D4D87B1C1CD88D2C00875F66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D87B1A1CD88D2C00875F66 /* LaunchScreen.storyboard */; };
 		D4D87B271CD88D2C00875F66 /* __TextView__Placeholder__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D87B261CD88D2C00875F66 /* __TextView__Placeholder__Tests.m */; };
 		D4D87B321CD88D2C00875F66 /* __TextView__Placeholder__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D87B311CD88D2C00875F66 /* __TextView__Placeholder__UITests.m */; };
+		D4D87C801CD8A26700875F66 /* ObsceneTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D87C7F1CD8A26700875F66 /* ObsceneTextView.m */; };
+		D4D87C831CD8A78800875F66 /* DrawTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D87C821CD8A78800875F66 /* DrawTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D4214E341CD9EA3A0069D292 /* UIView+DX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DX.h"; sourceTree = "<group>"; };
+		D4214E351CD9EA3A0069D292 /* UIView+DX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DX.m"; sourceTree = "<group>"; };
+		D4214E361CD9EA3A0069D292 /* XMGPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGPlaceholderTextView.h; sourceTree = "<group>"; };
+		D4214E371CD9EA3A0069D292 /* XMGPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGPlaceholderTextView.m; sourceTree = "<group>"; };
+		D4214E3A1CD9EFFC0069D292 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		D4214E3B1CD9EFFC0069D292 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		D4214E3E1CD9F6B40069D292 /* RPFloatingPlaceholderConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPFloatingPlaceholderConstants.h; sourceTree = "<group>"; };
+		D4214E3F1CD9F6B40069D292 /* RPFloatingPlaceholderTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPFloatingPlaceholderTextField.h; sourceTree = "<group>"; };
+		D4214E401CD9F6B40069D292 /* RPFloatingPlaceholderTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPFloatingPlaceholderTextField.m; sourceTree = "<group>"; };
+		D4214E411CD9F6B40069D292 /* RPFloatingPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPFloatingPlaceholderTextView.h; sourceTree = "<group>"; };
+		D4214E421CD9F6B40069D292 /* RPFloatingPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPFloatingPlaceholderTextView.m; sourceTree = "<group>"; };
 		D4D87B091CD88D2C00875F66 /* 🍨TextView++Placeholder🍧.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "🍨TextView++Placeholder🍧.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D87B0D1CD88D2C00875F66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D4D87B0F1CD88D2C00875F66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +69,10 @@
 		D4D87B2D1CD88D2C00875F66 /* 🍨TextView++Placeholder🍧UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "🍨TextView++Placeholder🍧UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D87B311CD88D2C00875F66 /* __TextView__Placeholder__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __TextView__Placeholder__UITests.m; sourceTree = "<group>"; };
 		D4D87B331CD88D2C00875F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4D87C7E1CD8A26700875F66 /* ObsceneTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObsceneTextView.h; sourceTree = "<group>"; };
+		D4D87C7F1CD8A26700875F66 /* ObsceneTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObsceneTextView.m; sourceTree = "<group>"; };
+		D4D87C811CD8A78800875F66 /* DrawTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawTextView.h; sourceTree = "<group>"; };
+		D4D87C821CD8A78800875F66 /* DrawTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +100,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D4214E331CD9EA3A0069D292 /* XMGPlaceholderTextView */ = {
+			isa = PBXGroup;
+			children = (
+				D4214E341CD9EA3A0069D292 /* UIView+DX.h */,
+				D4214E351CD9EA3A0069D292 /* UIView+DX.m */,
+				D4214E361CD9EA3A0069D292 /* XMGPlaceholderTextView.h */,
+				D4214E371CD9EA3A0069D292 /* XMGPlaceholderTextView.m */,
+			);
+			path = XMGPlaceholderTextView;
+			sourceTree = "<group>";
+		};
+		D4214E3D1CD9F6B40069D292 /* RPFloatingPlaceholders */ = {
+			isa = PBXGroup;
+			children = (
+				D4214E3E1CD9F6B40069D292 /* RPFloatingPlaceholderConstants.h */,
+				D4214E3F1CD9F6B40069D292 /* RPFloatingPlaceholderTextField.h */,
+				D4214E401CD9F6B40069D292 /* RPFloatingPlaceholderTextField.m */,
+				D4214E411CD9F6B40069D292 /* RPFloatingPlaceholderTextView.h */,
+				D4214E421CD9F6B40069D292 /* RPFloatingPlaceholderTextView.m */,
+			);
+			path = RPFloatingPlaceholders;
+			sourceTree = "<group>";
+		};
 		D4D87B001CD88D2C00875F66 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +146,7 @@
 		D4D87B0B1CD88D2C00875F66 /* 🍨TextView++Placeholder🍧 */ = {
 			isa = PBXGroup;
 			children = (
+				D4D87B3F1CD88D4100875F66 /* SDKS */,
 				D4D87B0F1CD88D2C00875F66 /* AppDelegate.h */,
 				D4D87B101CD88D2C00875F66 /* AppDelegate.m */,
 				D4D87B121CD88D2C00875F66 /* ViewController.h */,
@@ -138,6 +184,61 @@
 				D4D87B331CD88D2C00875F66 /* Info.plist */,
 			);
 			path = "🍨TextView++Placeholder🍧UITests";
+			sourceTree = "<group>";
+		};
+		D4D87B3F1CD88D4100875F66 /* SDKS */ = {
+			isa = PBXGroup;
+			children = (
+				D4D87B401CD88DAB00875F66 /* TextView1 */,
+				D4D87B411CD88DAB00875F66 /* TextView2 */,
+				D4D87B421CD88DAB00875F66 /* TextView3 */,
+				D4D87B431CD88DAB00875F66 /* TextView4 */,
+				D4D87B441CD88DAB00875F66 /* TextView5 */,
+			);
+			path = SDKS;
+			sourceTree = "<group>";
+		};
+		D4D87B401CD88DAB00875F66 /* TextView1 */ = {
+			isa = PBXGroup;
+			children = (
+				D4D87C7E1CD8A26700875F66 /* ObsceneTextView.h */,
+				D4D87C7F1CD8A26700875F66 /* ObsceneTextView.m */,
+			);
+			path = TextView1;
+			sourceTree = "<group>";
+		};
+		D4D87B411CD88DAB00875F66 /* TextView2 */ = {
+			isa = PBXGroup;
+			children = (
+				D4D87C811CD8A78800875F66 /* DrawTextView.h */,
+				D4D87C821CD8A78800875F66 /* DrawTextView.m */,
+			);
+			path = TextView2;
+			sourceTree = "<group>";
+		};
+		D4D87B421CD88DAB00875F66 /* TextView3 */ = {
+			isa = PBXGroup;
+			children = (
+				D4214E331CD9EA3A0069D292 /* XMGPlaceholderTextView */,
+			);
+			path = TextView3;
+			sourceTree = "<group>";
+		};
+		D4D87B431CD88DAB00875F66 /* TextView4 */ = {
+			isa = PBXGroup;
+			children = (
+				D4214E3A1CD9EFFC0069D292 /* UITextView+Placeholder.h */,
+				D4214E3B1CD9EFFC0069D292 /* UITextView+Placeholder.m */,
+			);
+			path = TextView4;
+			sourceTree = "<group>";
+		};
+		D4D87B441CD88DAB00875F66 /* TextView5 */ = {
+			isa = PBXGroup;
+			children = (
+				D4214E3D1CD9F6B40069D292 /* RPFloatingPlaceholders */,
+			);
+			path = TextView5;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +371,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4214E431CD9F6B40069D292 /* RPFloatingPlaceholderTextField.m in Sources */,
 				D4D87B141CD88D2C00875F66 /* ViewController.m in Sources */,
 				D4D87B111CD88D2C00875F66 /* AppDelegate.m in Sources */,
 				D4D87B0E1CD88D2C00875F66 /* main.m in Sources */,
+				D4D87C831CD8A78800875F66 /* DrawTextView.m in Sources */,
+				D4214E441CD9F6B40069D292 /* RPFloatingPlaceholderTextView.m in Sources */,
+				D4214E391CD9EA3A0069D292 /* XMGPlaceholderTextView.m in Sources */,
+				D4214E381CD9EA3A0069D292 /* UIView+DX.m in Sources */,
+				D4D87C801CD8A26700875F66 /* ObsceneTextView.m in Sources */,
+				D4214E3C1CD9EFFC0069D292 /* UITextView+Placeholder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +606,7 @@
 				D4D87B381CD88D2C00875F66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4D87B391CD88D2C00875F66 /* Build configuration list for PBXNativeTarget "🍨TextView++Placeholder🍧Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +615,7 @@
 				D4D87B3B1CD88D2C00875F66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4D87B3C1CD88D2C00875F66 /* Build configuration list for PBXNativeTarget "🍨TextView++Placeholder🍧UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +624,7 @@
 				D4D87B3E1CD88D2C00875F66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
